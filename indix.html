@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>whatsapp clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="whatapp_Box">
+        <div class="_header">
+          <div class="top_header_content">
+            <h5>WhatsApp</h5>
+            <div class="right_top_icons">
+              <i class="fa fa-camera"></i>
+              <i class="fa fa-search"></i>
+              <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="bottom_header_content">
+            <button id="user"><i class="fa fa-users"></i></button>
+            <button id="chats" class="active">Chats</button>
+            <button id="status">Status</button>
+            <button id="calls">Calls</button>
+          </div>
+        </div>
+
+        <div class="screen">
+          <div class="contact_list">
+            <ul>
+
+
+              <li>
+                <div class="profile_section">
+                  <img
+                    src="mammy.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="contact_section">
+                  <h5>Mummy 2</h5>
+                  <small>Photo</small>
+                </div>
+                <div class="msg_counter">
+                  <small class="time">10:00 am</small>
+                  <small class="count">14</small>
+                </div>
+              </li>
+
+
+              <li>
+                <div class="profile_section">
+                  <img src="mammy1.jpg" alt="" />
+                </div>
+                <div class="contact_section">
+                  <h5>Papa</h5>
+                  <small>paisa dale hai gaya hai dekho to</small>
+                </div>
+                <div class="msg_counter">
+                  <small class="time">11:00 am</small>
+                  <!-- <small class="count">44</small> -->
+                </div>
+              </li>
+
+
+              <li>
+                <div class="profile_section">
+                  <img src="nikku kumar.jpg" alt="" />
+                </div>
+                <div class="contact_section">
+                  <h5>Nikku kumar</h5>
+                  <small>kya kar  raha hai bhai</small>
+                </div>
+                <div class="msg_counter">
+                  <small class="time">1:00 pm</small>
+                  <small class="count">44</small>
+                </div>
+              </li>
+
+
+              <li>
+                <div class="profile_section">
+                  <img src="sushil bhaiya.jpg" alt="" />
+                </div>
+                <div class="contact_section">
+                  <h5>sushil bhaiya</h5>
+                  <small>ka hota ho bhaiya</small>
+                  <!-- <small class="count">24</small> -->
+                </div>
+                <div class="msg_counter">
+                  <small class="time">11:09 am</small>
+                  <small class="count">69</small>
+                </div>
+              </li>
+
+
+              <li>
+                <div class="profile_section">
+                  <img src="Brother.jpg" alt="" />
+                </div>
+                <div class="contact_section">
+                  <h5>Sachin kr</h5>
+                  <small>bhaiya ka hota mammy se bat bhail la</small>
+                </div>
+                <div class="msg_counter">
+                  <small class="time">10:40 am</small>
+                  <small class="count">24</small>
+                </div>
+              </li>
+
+
+              <li>
+                <div class="profile_section">
+                  <img src="pagal.jpg" alt="" />
+                </div>
+                <div class="contact_section">
+                  <h5>pagal</h5>
+                  <small>kya kar rahe hai paglu</small>
+                </div>
+                <div class="msg_counter">
+                  <small class="time">10:12 pm</small>
+                  <small class="count">54</small>
+                </div>
+              </li>
+
+
+              <li>
+                <div class="profile_section">
+                  <img src="SUDAMA 03.jpg" alt="" />
+                </div>
+                <div class="contact_section">
+                  <h5>SUDAMA</h5>
+                  <small>bolo na bhai</small>
+                </div>
+                <div class="msg_counter">
+                  <small class="time">10:30 am</small>
+                  <small class="count">14</small>
+                </div>
+              </li>
+
+              <li>
+                <div class="profile_section">
+                  <img src="kunal bhaiya.jpg" alt="" />
+                </div>
+                <div class="contact_section">
+                  <h5>Kunal bhaiya</h5>
+                  <small>kaha rahtra nitesh</small>
+                </div>
+                <div class="msg_counter">
+                  <small class="time">9:00 am</small>
+                  <!-- <small class="count">44</small> -->
+                </div>
+              </li>
+
+              <li>
+                <div class="profile_section">
+                  <img src="afshna cse.jpg" alt="" />
+                </div>
+                <div class="contact_section">
+                  <h5>afshna</h5>
+                  <small>python ka notes bhjiya ga</small>
+                </div>
+                <div class="msg_counter">
+                  <small class="time">10:00 pm</small>
+                  <small class="count">4</small>
+                </div>
+              </li>
+
+            
+            </ul>
+
+            <button class="chatBtns">  <i class="fa fa-commenting" aria-hidden="true"></i></button>
+
+          </div>
+
+
+
+          <!-- status area is the start -->
+          <div class="status_area">
+            <ul>
+              <li>
+                <div class="my_status">
+                  <img src="./images/Mystatus.jpeg" alt="" />
+                  <i class="fa fa-plus" aria-hidden="true"></i>
+                </div>
+                <div class="status_contact">
+                  <h5>My status</h5>
+                  <p>Tap to add status update</p>
+                </div>
+              </li>
+
+
+              <p class="statusTxt">Recent update</p>
+              <li>
+                <div class="my_status recent">
+                  <img src="mammy.jpg" alt="" width="40px" />
+                </div>
+                <div class="status_contact">
+                  <h5>Mummy</h5>
+                  <p>5 miniuts ago</p>
+                </div>
+              </li>
+
+
+              <li>
+                <div class="my_status recent">
+                  <img src="chandan gaw.jpg" alt="" width="40px" />
+                </div>
+                <div class="status_contact">
+                  <h5> chandan</h5>
+                  <p>5 miniuts ago</p>
+                </div>
+              </li>
+
+
+              <li>
+                <div class="my_status recent">
+                  <img src="mammy1.jpg" alt="" width="40px" />
+                </div>
+                <div class="status_contact">
+                  <h5>Papa</h5>
+                  <p>Yesterday, 9:13 am</p>
+                </div>
+              </li>
+
+
+              <li>
+                <div class="my_status recent">
+                  <img src="Ajit bhai.jpg" alt="" width="40px" />
+                </div>
+                <div class="status_contact">
+                  <h5>Ajit</h5>
+                  <p>today, 3:49 pm</p>
+                </div>
+              </li>
+
+
+
+
+
+
+
+              <p class="statusTxt">Viewed updates</p>
+              <li>
+                <div class="my_status">
+                  <img src="pagal.jpg" alt="" width="40px" />
+                </div>
+                <div class="status_contact">
+                  <h5>pagal</h5>
+                  <p>Yesterday, 9:13 am</p>
+                </div>
+              </li>
+
+
+              <li>
+                <div class="my_status">
+                  <img src="amardep ee.jpg" alt="" width="40px" />
+                </div>
+                <div class="status_contact">
+                  <h5>amardep</h5>
+                  <p>today, 7:19 am</p>
+                </div>
+              </li>
+              <li>
+                <div class="my_status">
+                  <img src="sonu singh.jpg" alt="" width="40px" />
+                </div>
+                <div class="status_contact">
+                  <h5>sonu singh</h5>
+                  <p>Yesterday, 9:13 am</p>
+                </div>
+              </li>
+            </ul>
+            <div class="status_btns">
+                <div class="block_Btns">
+                    <button><i class="fa fa-pencil"></i></button>
+                    <button><i class="fa fa-camera"></i></button>
+                </div>
+            </div>
+          </div>
+          <!-- status area is the end -->
+
+
+
+          <!-- calls area is the start --> 
+          <div class="call_area">
+            <ul>
+              <li>
+                <div class="icon_call">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </div>
+
+                <div class="call_link">
+                  <h5>Create call link</h5>
+                  <small>Share a link for your Whatsapp call</small>
+                </div>
+              </li>
+
+              <p class="statusTxt">Recent</p>
+            <li>
+              <div class="call_img">
+                <img src="mammy.jpg" alt="">
+              </div>
+              <div class="call_link">
+                <h5>Mummy</h5>
+                <small><i class="fa fa-long-arrow-right" aria-hidden="true"></i> 26 september, 6:29 pm</small>
+              </div>
+
+              <i class="fa fa-video-camera calling_icon" aria-hidden="true"></i>
+            </li>
+
+
+            <li>
+              <div class="call_img">
+                <img src="pagal.jpg" alt="">
+              </div>
+              <div class="call_link">
+                <h5>pagal</h5>
+                <small><i class="fa fa-long-arrow-left" aria-hidden="true"></i> 26september, 11:09 am</small>
+              </div>
+
+              <i class="fa fa-phone calling_icon" aria-hidden="true"></i>
+            </li>
+
+
+            <li>
+              <div class="call_img">
+                <img src="sushil bhaiya.jpg" alt="">
+              </div>
+              <div class="call_link">
+                <h5>sushil bhaiya</h5>
+                <small><i class="fa fa-long-arrow-left" aria-hidden="true"></i> 10 september , 12:21 pm</small>
+              </div>
+
+              <i class="fa fa-phone calling_icon" aria-hidden="true"></i>
+            </li>
+
+
+            <li>
+              <div class="call_img">
+                <img src="nikku kumar.jpg" alt="">
+              </div>
+              <div class="call_link">
+                <h5>nikku kumar</h5>
+                <small><i class="fa fa-long-arrow-right" aria-hidden="true"></i> 26 september, 6:39 pm</small>
+              </div>
+
+              <i class="fa fa-video-camera calling_icon" aria-hidden="true"></i>
+            </li>
+
+
+            <li>
+              <div class="call_img">
+                <img src="Brother.jpg" alt="">
+              </div>
+              <div class="call_link">
+                <h5>sachin kr</h5>
+                <small><i class="fa fa-long-arrow-right" aria-hidden="true"></i> 22 september, 6:09 pm</small>
+              </div>
+              <i class="fa fa-video-camera calling_icon" aria-hidden="true"></i>
+            </li>
+
+            <li>
+              <div class="call_img">
+                <img src="mammy1.jpg" alt="">
+              </div>
+              <div class="call_link">
+                <h5>Papa</h5>
+                <small><i class="fa fa-long-arrow-right" aria-hidden="true"></i> 23 september,8:09 pm</small>
+              </div>
+              <i class="fa fa-video-camera calling_icon" aria-hidden="true"></i>
+            </li>
+
+            <li>
+              <div class="call_img">
+                <img src="mamul cse.jpg" alt="">
+              </div>
+              <div class="call_link">
+                <h5>mamul cse</h5>
+                <small><i class="fa fa-long-arrow-right" aria-hidden="true"></i>25 september, 6:09 pm</small>
+              </div>
+              <i class="fa fa-video-camera calling_icon" aria-hidden="true"></i>
+            </li>
+
+            <li>
+              <div class="call_img">
+                <img src="chandan gaw.jpg" alt="">
+              </div>
+              <div class="call_link">
+                <h5>chandan gaw</h5>
+                <small><i class="fa fa-long-arrow-right" aria-hidden="true"></i> 23 august, 2:09 pm</small>
+              </div>
+              <i class="fa fa-video-camera calling_icon" aria-hidden="true"></i>
+            </li>
+
+            <li>
+              <div class="call_img">
+                <img src="ranjan dost.jpg" alt="">
+              </div>
+              <div class="call_link">
+                <h5>ranjan</h5>
+                <small><i class="fa fa-long-arrow-right" aria-hidden="true"></i> 10 september, 6:09 pm</small>
+              </div>
+
+              <i class="fa fa-video-camera calling_icon" aria-hidden="true"></i>
+            </li>
+            </ul>
+
+            <button class="callBtns">
+                <i class="fa fa-phone"></i>
+            </button>
+          </div>
+          <!-- calls area is the end  -->
+
+          <!-- community -->
+          <div class="community_area">
+            <ul>
+              <li>
+                <div class="community_icon">
+                  <i class="fa fa-users" aria-hidden="true"></i>
+                  <i class="fa fa-plus" aria-hidden="true"></i>
+                </div>
+                <div class="text_community">
+                  <h5>New community</h5>
+                </div>
+                
+              </li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
